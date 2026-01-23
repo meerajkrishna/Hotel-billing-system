@@ -220,7 +220,7 @@ Response returns a JWT token.
 
 ## 👤 Author
 
-**Anup Thorat**
+**Meeraj Krishna**
 Engineering Student | Python | FastAPI | Full-Stack Development
 
 ---
