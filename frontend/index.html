@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Billing System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🍽 Hotel Billing System</h1>
+
+<h2>Menu</h2>
+<div id="menu"></div>
+
+<button onclick="createOrder()">Generate Bill</button>
+<button onclick="downloadPDF()">Download PDF</button>
+
+<h2>Bill</h2>
+
+<div id="bill" class="bill">
+    <h3>Hotel Receipt</h3>
+    <table id="bill-table">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <h3 id="total">Total Amount: ₹0</h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
