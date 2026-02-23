@@ -221,7 +221,7 @@ Response returns a JWT token.
 ## 👤 Author
 
 **Meeraj Krishna**
-Engineering Student | Python | FastAPI | Full-Stack Development
+Engineering Student | Python | FastAPI 
 
 ---
 
